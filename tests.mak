@@ -38,6 +38,7 @@ TESTS := $(sort $(wildcard testsuite/tests/*.chk))
 # The tests need to be rerun if any of this files change:
 TESTS_DEPS=\
 	build/bin/fbc.xex\
+	build/bin/fbci.xex\
 	build/bin/fastbasic$(HOST_EXT)\
 	build/bin/ca65$(HOST_EXT)\
 	build/bin/ld65$(HOST_EXT)\
